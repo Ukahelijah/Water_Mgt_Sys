@@ -1,0 +1,144 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"42 C:\Users\NCAT010\MPLABXProjects\Water_management System.X\Water_Management_System.c
+[v _LCD_SetBit LCD_SetBit `(v  1 e 1 0 ]
+"60
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+"68
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"72
+[v _LCD_Start LCD_Start `(v  1 e 1 0 ]
+"92
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+"110
+[v _LCD_Print_Char LCD_Print_Char `(v  1 e 1 0 ]
+"126
+[v _LCD_Print_String LCD_Print_String `(v  1 e 1 0 ]
+"132
+[v _main main `(v  1 e 1 0 ]
+"1375 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2681
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2684
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2687
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2690
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2693
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2708
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2711
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2714
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2717
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2720
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2759
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2762
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2765
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2768
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2771
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2774
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"40 C:\Users\NCAT010\MPLABXProjects\Water_management System.X\Water_Management_System.c
+[v _modetype modetype `i  1 e 2 0 ]
+"132
+[v _main main `(v  1 e 1 0 ]
+{
+"246
+} 0
+"72
+[v _LCD_Start LCD_Start `(v  1 e 1 0 ]
+{
+"90
+} 0
+"92
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+{
+[v LCD_Set_Cursor@a a `uc  1 a 1 wreg ]
+"93
+[v LCD_Set_Cursor@temp temp `uc  1 a 1 9 ]
+[v LCD_Set_Cursor@y y `uc  1 a 1 8 ]
+[v LCD_Set_Cursor@z z `uc  1 a 1 7 ]
+"92
+[v LCD_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v LCD_Set_Cursor@b b `uc  1 p 1 4 ]
+"94
+[v LCD_Set_Cursor@a a `uc  1 a 1 6 ]
+"109
+} 0
+"126
+[v _LCD_Print_String LCD_Print_String `(v  1 e 1 0 ]
+{
+[v LCD_Print_String@a a `*.24uc  1 a 1 wreg ]
+"127
+[v LCD_Print_String@i i `i  1 a 2 9 ]
+"126
+[v LCD_Print_String@a a `*.24uc  1 a 1 wreg ]
+"128
+[v LCD_Print_String@a a `*.24uc  1 a 1 11 ]
+"130
+} 0
+"110
+[v _LCD_Print_Char LCD_Print_Char `(v  1 e 1 0 ]
+{
+[v LCD_Print_Char@data data `uc  1 a 1 wreg ]
+"121
+[v LCD_Print_Char@i_72 i `i  1 a 2 6 ]
+"117
+[v LCD_Print_Char@i i `i  1 a 2 4 ]
+"111
+[v LCD_Print_Char@Upper_Nibble Upper_Nibble `uc  1 a 1 3 ]
+[v LCD_Print_Char@Lower_Nibble Lower_Nibble `uc  1 a 1 2 ]
+"110
+[v LCD_Print_Char@data data `uc  1 a 1 wreg ]
+"112
+[v LCD_Print_Char@data data `uc  1 a 1 8 ]
+"124
+} 0
+"68
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"71
+} 0
+"60
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+{
+[v LCD_Cmd@a a `uc  1 a 1 wreg ]
+[v LCD_Cmd@a a `uc  1 a 1 wreg ]
+[v LCD_Cmd@a a `uc  1 a 1 3 ]
+"67
+} 0
+"42
+[v _LCD_SetBit LCD_SetBit `(v  1 e 1 0 ]
+{
+[v LCD_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+[v LCD_SetBit@data_bit data_bit `uc  1 a 1 wreg ]
+[v LCD_SetBit@data_bit data_bit `uc  1 a 1 0 ]
+"59
+} 0
